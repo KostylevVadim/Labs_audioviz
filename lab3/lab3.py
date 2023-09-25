@@ -108,7 +108,7 @@ def dilation(img):
     print("Операция - морфологическое расширение Dilation")
     a = int(img.size[0])
     b = int(img.size[1])
-    ##Интегральное изображение - массив пикселей вида (_,_,_)
+    
     integral_img = integral(img)
     res_image = Image.new("1", (a, b))
     for x in range(a):
