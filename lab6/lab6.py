@@ -4,7 +4,7 @@ import math
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from lab2 import Bradley_Rot
+from lab2.lab2 import Bradley_Rot
 def get_prof(img):
     print("Getting profiles")
     width = img.size[0]

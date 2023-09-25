@@ -4,9 +4,9 @@ import math
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from lab2 import Bradley_Rot
-from lab6 import get_prof, reference_image
-from lab5 import info
+from lab2.lab2 import Bradley_Rot
+from lab6.lab6 import get_prof, reference_image
+from lab5.lab5 import info
 def Segmantization_new(img):
     #print("Начинаем сегмантизацию")
     #s="𐎀𐎁𐎂𐎃𐎄𐎅𐎆𐎇𐎈𐎉𐎊𐎋𐎌𐎍𐎎𐎏𐎐𐎑𐎒𐎓𐎔𐎕𐎖𐎗𐎘𐎙𐎚𐎛𐎜𐎝"

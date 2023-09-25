@@ -1,7 +1,7 @@
 from PIL import Image, ImageChops
 import os
 import math
-from lab2 import Bradley_Rot
+from lab2.lab2 import Bradley_Rot
 
 def difference_images(img1, img2):
     SOURE_DIR = 'C:\\Users\\vadik\\OneDrive\\Рабочий стол\\lab12\\image_new\\'

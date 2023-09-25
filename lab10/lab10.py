@@ -7,7 +7,7 @@ from scipy import signal
 from scipy.fft import fft, fftfreq
 import wavio as wv
 import soundfile as sf
-from lab9 import spectrogram
+from lab9.lab9 import spectrogram
 
 def lab10():
     SOURE_DIR = 'C:\\Users\\vadik\\OneDrive\\Рабочий стол\\lab12\\sound10\\'
